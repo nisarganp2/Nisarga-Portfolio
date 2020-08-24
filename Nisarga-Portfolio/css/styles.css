@@ -1,0 +1,357 @@
+/* body */
+body {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  background-color: #ffffff;
+  color: #494947;
+}
+
+/* Standard tags */
+h1, h2, h3, h4, h5, h6 {
+  color: #252523;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* p */
+p {
+  font-size: 16px;
+  line-height: 2;
+  text-align: left;
+}
+
+/* Banner */
+#Banner {
+  background-color: #EDF1F5;
+}
+
+/* Banner content */
+.banner-content {
+  padding: 125px 0 90px 0;
+}
+
+.banner-content h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.banner-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.banner-content span {
+  font-size: 28px;
+}
+
+/* Banner btns */
+.bannerBtn-group {
+  margin-top: 40px;
+}
+
+.bannerBtn1, .bannerBtn2, .contact__btn {
+  width: 160px;
+  height: 40px;
+  line-height: 25px;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  border-radius: 0px;
+  border: 1px solid #d7d7cb;
+  transition: all 1s;
+}
+
+/* Banner contact btn */
+.bannerBtn1 {
+  background: #c0392b;
+}
+
+.bannerBtn1:hover {
+  background: #494947;
+}
+
+/* Banner download C.V btn */
+.bannerBtn2 {
+  background: #494947;
+}
+
+.bannerBtn2:hover {
+  background: #c0392b;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+/* Navbar logo/brand name */
+.navbar-brand {
+  color: #252523;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+/* Collapse menu on mobile */
+.navbar-default .navbar-toggler {
+  border-color: #ddd;
+}
+
+.navbar-toggler {
+  margin-top: 0px;
+  background-color: #494947;
+}
+
+.navbar-toggler {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+/* Normal link in menu */
+.navbar-light .navbar-nav .nav-link {
+  color: #787876;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+/* Active menu color */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  position: relative;
+  color: #494947;
+}
+
+/* Border around active nav menu */
+.navbar-nav .active::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  /* top: 0px;
+  right: 0px; */
+  height: 35px;
+  border-top: 1px solid #494947;
+  border-bottom: 1px solid #494947;
+}
+
+.navbar-nav .active::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  top: 20px;
+  right: 529px;
+  height: 35px;
+  border-top: 1px solid #494947;
+  border-bottom: 1px solid #494947;
+}
+
+/* ABOUT ME Section */
+/* section */
+.section {
+  padding: 90px 0 0 0;
+  text-align: center;
+}
+
+.sectionTitle {
+  margin-bottom: 80px;
+}
+
+/* Section Title */
+#aboutMe h2 {
+  font-size: 35px;
+  margin: 0px;
+  line-height: 1;
+  text-align: center;
+}
+
+/* icon below the title */
+.SectionIcon {
+  position: relative;
+  border-top: 1px solid #c0392b;
+  width: 160px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.SectionIcon span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #c0392b;
+  font-size: 12px;
+  transform: rotate(45deg);
+  top: -8px;
+  background: #c0392b;
+  color: #fff;
+  left: 0px;
+  right: 0px;
+  line-height: 13px;
+  margin: auto;
+}
+
+.SectionIcon span .fa-code {
+  transform: rotate(134deg);
+}
+
+.SectionIcon::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  /* top: -4px; */
+  width: 7px;
+  height: 7px;
+  background: #c0392b;
+  border-radius: 100%;
+}
+
+.SectionIcon::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: -4px;
+  width: 7px;
+  height: 7px;
+  background: #c0392b;
+  border-radius: 100%;
+}
+
+/* about section p */
+/* about body info */
+#aboutMe li strong:after {
+  content: ":";
+  position: absolute;
+  right: 0px;
+}
+
+#aboutMe ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+#aboutMe li {
+  margin-top: 30px;
+}
+
+#aboutMe strong {
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  margin-right: 30px;
+  font-weight: 900;
+}
+
+#aboutMe .info-Icon {
+  border: 1px solid #c0392b;
+  text-align: center;
+  height: 130px;
+  width: 130px;
+  margin: auto;
+  margin-bottom: 15px;
+  line-height: 2;
+  font-size: 63px;
+  color: #494947;
+  transition: all 1s;
+}
+
+/* Portfolio */
+/* portfolio1 */
+.portfolio-2 {
+  margin-top: 40px;
+}
+
+/* .portfolio1:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+} */
+.portfolio_description {
+  position: absolute;
+  /* top: 48px; */
+  bottom: 0;
+  left: 15px;
+  right: 17px;
+  background: rgb(192 57 43);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.portfolio_wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.portfolio_wrap a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: underline;
+  position: relative;
+  top: 15px;
+}
+
+.portfolio_wrap:hover .portfolio_description {
+  visibility: visible;
+  opacity: 1;
+  height: 50px;
+}
+
+.portfolio__img {
+  height: 100%;
+  border: solid 2px #49494724;
+}
+
+/* Contact form */
+#contact {
+  background: url("../images/contact-bg.jpg");
+  margin-top: 100px;
+}
+
+.contact__form {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 100px;
+}
+
+.contact__btn {
+  background: #494947;
+}
+
+.contact__btn:hover {
+  background: #c0392b;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 12px;
+  border: 1px solid #d7d7cb;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  outline-color: #c0392b;
+}
+
+/* Media Query for Mobile/tablet/desktop Responsiveness */
+@media (max-width:768px) {
+  #aboutMe strong {
+    width: 130px;
+  }
+}
